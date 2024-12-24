@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FileValidatorTest" tests="12" skipped="0" failures="2" errors="0" timestamp="2024-08-31T20:18:38" hostname="DESKTOP-URGQT26" time="0.157">
+<testsuite name="FileValidatorTest" tests="12" skipped="0" failures="2" errors="0" timestamp="2024-12-24T20:32:07" hostname="DESKTOP-URGQT26" time="0.076">
   <properties/>
-  <testcase name="sortListStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.036"/>
-  <testcase name="validateFilesStream_processedInStream_correctResults()" classname="FileValidatorTest" time="0.004">
+  <testcase name="sortListStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.03"/>
+  <testcase name="validateFilesStream_processedInStream_correctResults()" classname="FileValidatorTest" time="0.006">
     <failure message="org.opentest4j.AssertionFailedError: validateFilesStream does not have expected results! ==&gt; expected: &lt;[imports.java, main.java, readme.md, sources.txt]&gt; but was: &lt;[imports.java, main.java, readme.md, readme_draft.md, sources.txt, sources_draft.txt]&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: validateFilesStream does not have expected results! ==&gt; expected: &lt;[imports.java, main.java, readme.md, sources.txt]&gt; but was: &lt;[imports.java, main.java, readme.md, readme_draft.md, sources.txt, sources_draft.txt]&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -101,16 +101,16 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="sortList_performOperation_correctResults()" classname="FileValidatorTest" time="0.004"/>
-  <testcase name="removeHiddenFiles_performOperation_correctResults()" classname="FileValidatorTest" time="0.007"/>
-  <testcase name="validateFiles_processedInList_correctResults()" classname="FileValidatorTest" time="0.004"/>
+  <testcase name="sortList_performOperation_correctResults()" classname="FileValidatorTest" time="0.001"/>
+  <testcase name="removeHiddenFiles_performOperation_correctResults()" classname="FileValidatorTest" time="0.003"/>
+  <testcase name="validateFiles_processedInList_correctResults()" classname="FileValidatorTest" time="0.003"/>
   <testcase name="makeLowerCase_performOperation_correctResults()" classname="FileValidatorTest" time="0.002"/>
-  <testcase name="collectStreamResults_performOperation_returnList()" classname="FileValidatorTest" time="0.011"/>
-  <testcase name="removeHiddenFilesStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.005"/>
-  <testcase name="removeDraftFiles_performOperation_correctResults()" classname="FileValidatorTest" time="0.003"/>
-  <testcase name="makeLowerCaseStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.001"/>
-  <testcase name="createStream_arrayListOfItems_returnsStreamOfItems()" classname="FileValidatorTest" time="0.005"/>
-  <testcase name="removeDraftFilesStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.005">
+  <testcase name="collectStreamResults_performOperation_returnList()" classname="FileValidatorTest" time="0.001"/>
+  <testcase name="removeHiddenFilesStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.001"/>
+  <testcase name="removeDraftFiles_performOperation_correctResults()" classname="FileValidatorTest" time="0.001"/>
+  <testcase name="makeLowerCaseStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.01"/>
+  <testcase name="createStream_arrayListOfItems_returnsStreamOfItems()" classname="FileValidatorTest" time="0.001"/>
+  <testcase name="removeDraftFilesStream_performOperation_correctResults()" classname="FileValidatorTest" time="0.001">
     <failure message="org.opentest4j.AssertionFailedError: deleteDraftFilesStream does not delete draft files from list! ==&gt; expected: &lt;[abc]&gt; but was: &lt;[abc, _draft]&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: deleteDraftFilesStream does not delete draft files from list! ==&gt; expected: &lt;[abc]&gt; but was: &lt;[abc, _draft]&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
